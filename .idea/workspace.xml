@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ExpoStick:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="80e131e3-6157-40d9-a990-8d67f0a2c1cf" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setHitbox</find>
+      <find>hitbox</find>
+    </findStrings>
+  </component>
+  <component name="ProjectId" id="1OvHiZYSpLUmV8XZIW7IdHVLxn8" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553774712205" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15609756" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.quartzy.expostick.gui" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\QuartzMiner6000\IdeaProjects\ExpoStick\res\textures" />
+      <recent name="C:\Users\QuartzMiner6000\IdeaProjects\ExpoStick\src\com\quartzy\expostick" />
+      <recent name="C:\Users\QuartzMiner6000\IdeaProjects\ExpoStick\src\com\quartzy\expostick\gfx" />
+      <recent name="C:\Users\QuartzMiner6000\IdeaProjects\ExpoStick\src\com\quartzy\expostick\utills" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.quartzy.expostick.tiles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\QuartzMiner6000\IdeaProjects\ExpoStick\res\textures" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quartzy.expostick.Main" />
+      <module name="ExpoStick" />
+      <option name="PROGRAM_PARAMETERS" value="levelMaking=FALSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.quartzy.expostick.utills.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomLvlMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quartzy.expostick.utills.RandomLvlMaker" />
+      <module name="ExpoStick" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.quartzy.expostick.utills.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExpoStick.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/ExpoStick_jar/ExpoStick.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.RandomLvlMaker" />
+      <item itemvalue="JAR Application.ExpoStick.jar" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.RandomLvlMaker" />
+        <item itemvalue="JAR Application.ExpoStick.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80e131e3-6157-40d9-a990-8d67f0a2c1cf" name="Default Changelist" comment="" />
+      <created>1552155902640</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552155902640</updated>
+      <workItem from="1552155906178" duration="1468000" />
+      <workItem from="1552231801413" duration="1679000" />
+      <workItem from="1552409898188" duration="3511000" />
+      <workItem from="1552475431289" duration="4217000" />
+      <workItem from="1553020418934" duration="485000" />
+      <workItem from="1553186259466" duration="596000" />
+      <workItem from="1553189788875" duration="4287000" />
+      <workItem from="1553335152027" duration="303000" />
+      <workItem from="1553335468628" duration="4991000" />
+      <workItem from="1553681136618" duration="8794000" />
+      <workItem from="1553696069212" duration="142000" />
+      <workItem from="1553700202583" duration="218000" />
+      <workItem from="1553714813109" duration="97000" />
+      <workItem from="1553717483835" duration="83000" />
+      <workItem from="1553766763230" duration="5100000" />
+      <workItem from="1553878806870" duration="206000" />
+      <workItem from="1554134580387" duration="14000" />
+      <workItem from="1554134616036" duration="599000" />
+      <workItem from="1554220163122" duration="1646000" />
+      <workItem from="1554223572118" duration="345000" />
+      <workItem from="1554480106964" duration="5517000" />
+      <workItem from="1554554697532" duration="160000" />
+      <workItem from="1554664611133" duration="653000" />
+      <workItem from="1554750341422" duration="1572000" />
+      <workItem from="1554823053080" duration="1782000" />
+      <workItem from="1554825003925" duration="1569000" />
+      <workItem from="1555007230396" duration="68000" />
+      <workItem from="1555089609375" duration="601000" />
+      <workItem from="1556034143443" duration="38000" />
+      <workItem from="1556034756757" duration="2502000" />
+      <workItem from="1556205625801" duration="594000" />
+      <workItem from="1556293321559" duration="84000" />
+      <workItem from="1556293428536" duration="209000" />
+      <workItem from="1556294793322" duration="1741000" />
+      <workItem from="1556474888333" duration="1424000" />
+      <workItem from="1556646197931" duration="47000" />
+      <workItem from="1558546780775" duration="2490000" />
+      <workItem from="1558803987190" duration="4638000" />
+      <workItem from="1559059838057" duration="2780000" />
+      <workItem from="1559928624727" duration="1068000" />
+      <workItem from="1560011979483" duration="602000" />
+      <workItem from="1561224939237" duration="685000" />
+      <workItem from="1561368859121" duration="10399000" />
+      <workItem from="1561392087904" duration="3722000" />
+      <workItem from="1561401159538" duration="4349000" />
+      <workItem from="1561406111831" duration="4000" />
+      <workItem from="1561457155557" duration="7089000" />
+      <workItem from="1561641113080" duration="3437000" />
+      <workItem from="1561723144923" duration="19000" />
+      <workItem from="1561795850727" duration="705000" />
+      <workItem from="1562324116714" duration="3201000" />
+      <workItem from="1562330635225" duration="1544000" />
+      <workItem from="1562410686367" duration="1257000" />
+      <workItem from="1562590540324" duration="8087000" />
+      <workItem from="1562682874637" duration="5203000" />
+      <workItem from="1562842122578" duration="10344000" />
+      <workItem from="1562862584162" duration="6873000" />
+      <workItem from="1562904277702" duration="3506000" />
+      <workItem from="1562941741638" duration="2221000" />
+      <workItem from="1562951658461" duration="419000" />
+      <workItem from="1563663928977" duration="205000" />
+      <workItem from="1564851280486" duration="74000" />
+      <workItem from="1565523603030" duration="332000" />
+      <workItem from="1565523952882" duration="81000" />
+      <workItem from="1565540403506" duration="13000" />
+      <workItem from="1566136056013" duration="394000" />
+      <workItem from="1566143838938" duration="1646000" />
+      <workItem from="1566227737147" duration="598000" />
+      <workItem from="1566373413527" duration="153000" />
+      <workItem from="1566374531585" duration="593000" />
+      <workItem from="1569165466790" duration="5110000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="handler.getLoadedWorld().getTiles()[i][i1]" language="JAVA" />
+        <watch expression="handler.getLoadedWorld().getTiles()[a][b]" language="JAVA" />
+        <watch expression="handler.getLoadedWorld().getTiles()[0][0]" language="JAVA" />
+        <watch expression="handler.getPlayer()" language="JAVA" />
+        <watch expression="getPosition().getX()&gt;0 &amp;&amp; getPosition().getY()&gt;0" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>getPosition().getX()&gt;0 &amp;&amp; getPosition().getY()&gt;0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>handler.getPlayer()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>handler.getLoadedWorld().getTiles()[0][0]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>handler.getLoadedWorld().getTiles()[a][b]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>handler.getLoadedWorld().getTiles()[i][i1]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>handler.getLoadedWorld().getTiles()[0][0].getHitbox()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>handler.getLoadedWorld().getTiles()[i][i1].getHitbox()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>handler.getLoadedWorld().getTiles()[1][0]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>handler.getLoadedWorld().getTiles()[0][1]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>handler.getLoadedWorld().getTiles()[0][1].getHitbox().contains(x1, y1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ExpoStick:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>craftbukkit-1.11.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ExpoStick</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>ExternalLIBS</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.1927555" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

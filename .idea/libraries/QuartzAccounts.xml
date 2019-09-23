@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="QuartzAccounts">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../QuartzAccounts/out/artifacts/QuartzAccounts_jar/QuartzAccounts.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../QuartzAccounts/out/artifacts/QuartzAccounts_jar/QuartzAccounts.jar!/" />
+    </SOURCES>
+  </library>
+</component>

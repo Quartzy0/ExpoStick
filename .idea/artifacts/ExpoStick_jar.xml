@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ExpoStick:jar">
+    <output-path>$PROJECT_DIR$/../../ExpoStickInstall</output-path>
+    <root id="archive" name="ExpoStick.jar">
+      <element id="module-output" name="ExpoStick" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../ExternalLIBS/out/artifacts/ExternalLIBS_jar/ExternalLIBS.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
