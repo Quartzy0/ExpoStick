@@ -1,5 +1,6 @@
 package com.quartzy.expostick.utills;
 
+import com.quartzy.expostick.netty.NettyHandler;
 import com.quartzy.expostick.entities.Player;
 import com.quartzy.expostick.gfx.Camera;
 import com.quartzy.expostick.gfx.Display;
@@ -8,6 +9,10 @@ import com.quartzy.expostick.gui.GuiIngame;
 import com.quartzy.expostick.gui.LevelMakerGui;
 import com.quartzy.expostick.input.KeyBind;
 import com.quartzy.expostick.input.KeyBinds;
+import com.quartzy.expostick.netty.PacketReceivedEvent;
+import com.quartzy.expostick.netty.packets.AuthPacket;
+import com.quartzy.expostick.netty.packets.Packet;
+import com.quartzy.expostick.netty.packets.WorldDataPacket;
 import com.quartzy.expostick.world.World;
 
 import java.awt.event.KeyEvent;
@@ -22,8 +27,6 @@ public class Handler implements Serializable {
     public static KeyBind A;
     public static KeyBind S;
     public static KeyBind D;
-    public static KeyBind LEFT;
-    public static KeyBind RIGHT;
     public static KeyBind PLUS;
     public static KeyBind MINUS;
     public final static int GRAVITY = 1;
@@ -31,8 +34,9 @@ public class Handler implements Serializable {
     public static boolean DEBUG = false;
     public static boolean LEVEL_MAKING = false;
     private Gui currentGuiScreen;
-    private Player player;
+    private static Player player;
     private Camera camera;
+    private NettyHandler nettyHandler;
     
     public Camera getCamera() {
         return camera;
@@ -42,12 +46,12 @@ public class Handler implements Serializable {
         this.camera = camera;
     }
 
-    public Player getPlayer() {
+    public static Player getPlayer() {
         return player;
     }
 
-    public void setPlayer(Player player) {
-        this.player = player;
+    public static void setPlayer(Player playerIn) {
+        player = playerIn;
     }
 
     public static String GAME_DIR_PATH = System.getenv("APPDATA") + File.separator + "ExpoStick";
@@ -57,24 +61,20 @@ public class Handler implements Serializable {
         A = new KeyBind("Left", KeyEvent.VK_A);
         S = new KeyBind("Down", KeyEvent.VK_S);
         D = new KeyBind("Right", KeyEvent.VK_D);
-        LEFT = new KeyBind("Left arrow", KeyEvent.VK_LEFT);
-        RIGHT = new KeyBind("Right arrow", KeyEvent.VK_RIGHT);
         PLUS = new KeyBind("Plus", KeyEvent.VK_PLUS);
         MINUS = new KeyBind("Minus", KeyEvent.VK_MINUS);
         KeyBinds.keyBinds.add(W);
         KeyBinds.keyBinds.add(A);
         KeyBinds.keyBinds.add(S);
         KeyBinds.keyBinds.add(D);
-        KeyBinds.keyBinds.add(LEFT);
-        KeyBinds.keyBinds.add(RIGHT);
         KeyBinds.keyBinds.add(PLUS);
         KeyBinds.keyBinds.add(MINUS);
         currentGuiScreen = new GuiIngame(this);
         if (Handler.LEVEL_MAKING) currentGuiScreen = new LevelMakerGui(this);
-//        qBase = new QBase("expoStick");
+        nettyHandler = new NettyHandler();
     }
 
-    public static void quit(int status){
+    public void quit(int status){
         System.exit(status);
     }
 
@@ -91,7 +91,7 @@ public class Handler implements Serializable {
     }
 
     public void setDisplay(Display display) {
-        this.display = display;
+        Handler.display = display;
     }
 
     public World getLoadedWorld() {
@@ -100,5 +100,9 @@ public class Handler implements Serializable {
 
     public void setLoadedWorld(World loadedWorld) {
         this.loadedWorld = loadedWorld;
+    }
+    
+    public NettyHandler getNettyHandler(){
+        return nettyHandler;
     }
 }

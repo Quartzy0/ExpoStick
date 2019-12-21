@@ -7,14 +7,14 @@ import com.quartzy.expostick.gfx.Camera;
 import com.quartzy.expostick.gfx.Display;
 import com.quartzy.expostick.input.KeyListener;
 import com.quartzy.expostick.input.MouseManager;
-import com.quartzy.expostick.utills.Assets;
-import com.quartzy.expostick.utills.FileManager;
-import com.quartzy.expostick.utills.Handler;
-import com.quartzy.expostick.utills.Vector2;
-import com.quartzy.expostick.weapons.Crowbar;
+import com.quartzy.expostick.netty.NettyHandler;
+import com.quartzy.expostick.netty.PacketReceivedEvent;
+import com.quartzy.expostick.netty.packets.AuthPacket;
+import com.quartzy.expostick.netty.packets.Packet;
+import com.quartzy.expostick.netty.packets.WorldDataPacket;
+import com.quartzy.expostick.utills.*;
 import com.quartzy.expostick.weapons.Pistol;
 import com.quartzy.expostick.world.World;
-import javafx.application.Platform;
 
 import java.awt.*;
 import java.io.File;
@@ -22,7 +22,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Objects;
 import java.util.Properties;
-import java.util.Set;
 
 public class Game extends Thread{
 
@@ -46,10 +45,11 @@ public class Game extends Thread{
         }
         Handler.LEVEL_MAKING = Boolean.parseBoolean(properties.getProperty("level_making", "FALSE"));
         Handler.DEBUG = Boolean.parseBoolean(properties.getProperty("debug_mode", "FALSE"));
+//        Handler.LEVEL_MAKING = true;
         handler.init();
         handler.setDisplay(Main.display);
         this.display = handler.getDisplay();
-        handler.setLoadedWorld(new World(Objects.requireNonNull(FileManager.loadWorld("Level_1")), handler));
+        handler.setLoadedWorld(new World(Objects.requireNonNull(WorldFormatter.getWorld(new File("C:\\Users\\QuartzMiner6000\\IdeaProjects\\ExpoStickServer\\res\\levels\\Level_1.bin"))), handler));
         camera = new Camera(new Vector2(0,0), handler);
         handler.setCamera(camera);
         KeyListener keyManager = new KeyListener();
@@ -62,6 +62,28 @@ public class Game extends Thread{
         display.getCanvas().addMouseListener(mouseManager);
         display.getCanvas().addMouseMotionListener(mouseManager);
         display.getCanvas().addMouseWheelListener(mouseManager);
+        
+        handler.getNettyHandler().connect("localhost", 8080);
+        NettyHandler.setPacketListener(new PacketReceivedEvent(){
+            @Override
+            public void packetReceived(Packet packetIn){
+                WorldDataPacket packet = (WorldDataPacket) packetIn;
+                handler.setLoadedWorld(packet.getWorld());
+                if(packet.getYou()!=null){
+                    Handler.setPlayer((Player) handler.getLoadedWorld().getEntityById(packet.getYou()));
+                    System.out.println("Received packet as me" + packet.getYou().toString());
+                }
+                System.out.println("Yes");
+            }
+        }, 8732874);
+        NettyHandler.setPacketListener(new PacketReceivedEvent(){
+            @Override
+            public void packetReceived(Packet packet){
+                AuthPacket authPacket = (AuthPacket) packet;
+                System.out.println(authPacket.getAuthToken() + "   " + authPacket.getUuid());
+                System.out.println("Yes#2");
+            }
+        }, 1111);
     }
 
     @Override
@@ -104,17 +126,12 @@ public class Game extends Thread{
                 for (int a = 0; a < handler.getLoadedWorld().getEntities().size(); a++) {
                     Entity e = handler.getLoadedWorld().getEntities().get(a);
                     e.tick();
-                    if (e instanceof Player) {
-                        if (firstTime) {
-                            firstTime = false;
-                            e.setWeapon(new Pistol(e, handler));
-                        }
-                        camera.setFocusedPos(e.getPosition());
-                        handler.setPlayer((Player) e);
-                    }
                 }
                 for (int i = 0; i < handler.getLoadedWorld().getProjectiles().size(); i++) {
                     handler.getLoadedWorld().getProjectiles().get(i).tick();
+                }
+                if(handler.getPlayer()!=null){
+                    handler.getCamera().setFocusedPos(handler.getPlayer().getPosition());
                 }
             }
             handler.getCurrentGuiScreen().tick();

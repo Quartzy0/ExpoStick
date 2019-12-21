@@ -9,7 +9,6 @@ public class WorldData implements Serializable {
     public String name;
     public int[][] tiles;
     public EntityData[] entitySpawnList;
-    public int width, height;
 
     public WorldData(String name, int[][] tiles, EntityData[] entitySpawnList) {
         this.name = name;

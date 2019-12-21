@@ -5,10 +5,8 @@ import com.quartzy.expostick.entities.Robot;
 import com.quartzy.expostick.input.Clicked;
 import com.quartzy.expostick.input.Dragged;
 import com.quartzy.expostick.input.Mouse;
-import com.quartzy.expostick.input.Pressed;
 import com.quartzy.expostick.tiles.Tile;
 import com.quartzy.expostick.tiles.Tiles;
-import com.quartzy.expostick.utills.Assets;
 import com.quartzy.expostick.utills.FileManager;
 import com.quartzy.expostick.utills.Handler;
 import com.quartzy.expostick.utills.Vector2;
@@ -17,11 +15,11 @@ import com.quartzy.expostick.world.WorldData;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import java.util.UUID;
 
 
 public class LevelMakerGui extends Gui {
@@ -81,7 +79,7 @@ public class LevelMakerGui extends Gui {
                 List<Entity> entities = loadedWorld.getEntities();
                 EntityData[] entityData = new EntityData[entities.size()];
                 for (int i = 0; i < entities.size(); i++) {
-                    entityData[i] = new EntityData(entities.get(i).getPosition(), entities.get(i).getEntityType(), entities.get(i).isColidable(), entities.get(i).getHealth());
+                    entityData[i] = new EntityData(entities.get(i).getPosition(), entities.get(i).getEntityType(), entities.get(i).isColidable(), entities.get(i).getHealth(), UUID.randomUUID());
                 }
                 Tile[][] tiles = loadedWorld.getTiles();
                 int[][] tileIds = new int[tiles.length][tiles[0].length];

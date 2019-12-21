@@ -6,12 +6,100 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80e131e3-6157-40d9-a990-8d67f0a2c1cf" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="80e131e3-6157-40d9-a990-8d67f0a2c1cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/netty_all_4_1_42_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/gson-2.8.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/netty-all-4.1.42.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/netty/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/netty/Decoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/netty/Encoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/netty/NettyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/netty/PacketReceivedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/netty/packets/AuthPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/netty/packets/Packet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/netty/packets/Packets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/netty/packets/PlayerRequestMovement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/netty/packets/WorldDataPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/tileentities/TileEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/utills/MovementType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/utills/WorldFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/ExternalLIBS.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/QuartzAccounts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jl1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/spigot_1_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExpoStick.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ExpoStick.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/entities/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/entities/Entity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/entities/EntityData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/entities/EntityData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/entities/Player$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/entities/Player$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/entities/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/entities/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gfx/Display$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gfx/Display$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gfx/Display.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gfx/Display.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gfx/ImageLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gfx/ImageLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gui/GuiDeath$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gui/GuiDeath$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gui/GuiDeath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gui/GuiDeath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gui/GuiIngame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gui/GuiIngame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gui/LevelMakerGui$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gui/LevelMakerGui$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gui/LevelMakerGui$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gui/LevelMakerGui$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gui/LevelMakerGui$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gui/LevelMakerGui$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gui/LevelMakerGui$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gui/LevelMakerGui$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gui/LevelMakerGui$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gui/LevelMakerGui$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gui/LevelMakerGui$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gui/LevelMakerGui$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gui/LevelMakerGui.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/gui/LevelMakerGui.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/utills/Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/utills/Handler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/utills/RandomLvlMaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/utills/RandomLvlMaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/utills/WorldDataParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/world/World$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/world/World$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/world/World.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/world/World.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/world/WorldData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpoStick/com/quartzy/expostick/world/WorldData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/entities/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/entities/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/entities/EntityData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/entities/EntityData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/entities/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/entities/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/gfx/Animation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/gfx/Animation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/gfx/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/gfx/Camera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/gfx/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/gfx/Display.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/gfx/ImageLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/gfx/ImageLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/gfx/ImageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/gfx/ImageUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/gfx/SpriteSheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/gfx/SpriteSheet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/gui/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/gui/Gui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/gui/GuiButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/gui/GuiButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/gui/GuiComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/gui/GuiComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/gui/GuiDeath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/gui/GuiDeath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/gui/GuiDropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/gui/GuiDropdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/gui/GuiIngame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/gui/GuiIngame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/gui/GuiProgressBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/gui/GuiProgressBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/gui/GuiText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/gui/GuiText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/gui/LevelMakerGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/gui/LevelMakerGui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/gui/OnClickedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/gui/OnClickedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/input/KeyBind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/input/KeyBind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/utills/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/utills/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/utills/RandomLvlMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/utills/RandomLvlMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/utills/WorldDataParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/world/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/world/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quartzy/expostick/world/WorldData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quartzy/expostick/world/WorldData.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -31,12 +119,25 @@
       <find>hitbox</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1OvHiZYSpLUmV8XZIW7IdHVLxn8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553774712205" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/gson-2.8.6.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,39 +148,32 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15609756" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.quartzy.expostick.utills" />
       <recent name="com.quartzy.expostick.gui" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\QuartzMiner6000\IdeaProjects\ExpoStick\libs" />
+      <recent name="C:\Users\QuartzMiner6000\IdeaProjects\ExpoStick\src\com\quartzy\expostick\netty\packets" />
       <recent name="C:\Users\QuartzMiner6000\IdeaProjects\ExpoStick\res\textures" />
       <recent name="C:\Users\QuartzMiner6000\IdeaProjects\ExpoStick\src\com\quartzy\expostick" />
       <recent name="C:\Users\QuartzMiner6000\IdeaProjects\ExpoStick\src\com\quartzy\expostick\gfx" />
-      <recent name="C:\Users\QuartzMiner6000\IdeaProjects\ExpoStick\src\com\quartzy\expostick\utills" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.quartzy.expostick.netty.packets" />
+      <recent name="packets" />
+      <recent name="com.quartzy.expostick.client.netty" />
       <recent name="com.quartzy.expostick.tiles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\QuartzMiner6000\IdeaProjects\ExpoStick\res\textures" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet">
@@ -102,8 +196,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main_2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.quartzy.expostick.Main" />
+      <module name="ExpoStick" />
+      <option name="PROGRAM_PARAMETERS" value="levelMaking=FALSE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RandomLvlMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.quartzy.expostick.utills.RandomLvlMaker" />
+      <module name="ExpoStick" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.quartzy.expostick.utills.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorldFormatter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quartzy.expostick.utills.WorldFormatter" />
       <module name="ExpoStick" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -152,17 +268,32 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main_2" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.RandomLvlMaker" />
+      <item itemvalue="Application.WorldFormatter" />
       <item itemvalue="JAR Application.ExpoStick.jar" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.WorldFormatter" />
         <item itemvalue="Application.RandomLvlMaker" />
         <item itemvalue="JAR Application.ExpoStick.jar" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -245,176 +376,127 @@
       <workItem from="1566373413527" duration="153000" />
       <workItem from="1566374531585" duration="593000" />
       <workItem from="1569165466790" duration="5110000" />
+      <workItem from="1569219671682" duration="363000" />
+      <workItem from="1569431823559" duration="588000" />
+      <workItem from="1569515832515" duration="829000" />
+      <workItem from="1572715108823" duration="2397000" />
+      <workItem from="1572794806557" duration="414000" />
+      <workItem from="1572795229371" duration="5215000" />
+      <workItem from="1572875476395" duration="9781000" />
+      <workItem from="1573233252421" duration="1614000" />
+      <workItem from="1574017571048" duration="3063000" />
+      <workItem from="1574319153679" duration="642000" />
+      <workItem from="1575048125778" duration="130000" />
+      <workItem from="1575048351385" duration="1070000" />
+      <workItem from="1575113588202" duration="13955000" />
+      <workItem from="1575130719797" duration="920000" />
+      <workItem from="1575131658610" duration="158000" />
+      <workItem from="1575201186718" duration="2154000" />
+      <workItem from="1575636710021" duration="1678000" />
+      <workItem from="1575659804774" duration="1019000" />
+      <workItem from="1575819080297" duration="204000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="handler.getLoadedWorld().getTiles()[i][i1]" language="JAVA" />
-        <watch expression="handler.getLoadedWorld().getTiles()[a][b]" language="JAVA" />
-        <watch expression="handler.getLoadedWorld().getTiles()[0][0]" language="JAVA" />
-        <watch expression="handler.getPlayer()" language="JAVA" />
-        <watch expression="getPosition().getX()&gt;0 &amp;&amp; getPosition().getY()&gt;0" language="JAVA" />
-      </configuration>
-    </watches-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="watch">
-      <expression>
-        <expression-string>getPosition().getX()&gt;0 &amp;&amp; getPosition().getY()&gt;0</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>handler.getPlayer()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>handler.getLoadedWorld().getTiles()[0][0]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>handler.getLoadedWorld().getTiles()[a][b]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>handler.getLoadedWorld().getTiles()[i][i1]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>handler.getLoadedWorld().getTiles()[0][0].getHitbox()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>handler.getLoadedWorld().getTiles()[i][i1].getHitbox()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>handler.getLoadedWorld().getTiles()[1][0]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>handler.getLoadedWorld().getTiles()[0][1]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>handler.getLoadedWorld().getTiles()[0][1].getHitbox().contains(x1, y1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>ExpoStick:jar</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>craftbukkit-1.11.2</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>ExpoStick</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>ExternalLIBS</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.1927555" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="2685" y="216" key="#com.intellij.ide.util.MemberChooser" timestamp="1575202261497">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2685" y="216" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575202261497" />
+    <state x="2610" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575117920104">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2610" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575117920104" />
+    <state x="554" y="27" key="CommitChangelistDialog2" timestamp="1576920696640">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="554" y="27" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576920696640" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1575201567120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575201567120" />
+    <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575120282374" />
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1575640710716">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575201818606" />
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575640710716" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1575640710716">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575201818605" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575640710716" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1575640710716">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575201818605" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575640710716" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1575640710716">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575201818605" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575640710716" />
+    <state width="1877" height="279" key="GridCell.Tab.1.bottom" timestamp="1575640710716">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575201818606" />
+    <state width="1877" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575640710716" />
+    <state width="1877" height="279" key="GridCell.Tab.1.center" timestamp="1575640710716">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575201818606" />
+    <state width="1877" height="279" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575640710716" />
+    <state width="1877" height="279" key="GridCell.Tab.1.left" timestamp="1575640710716">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575201818606" />
+    <state width="1877" height="279" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575640710716" />
+    <state width="1877" height="279" key="GridCell.Tab.1.right" timestamp="1575640710716">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575201818606" />
+    <state width="1877" height="279" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575640710716" />
+    <state x="540" y="256" key="IDE.errors.dialog" timestamp="1575131558923">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="256" key="IDE.errors.dialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575131558923" />
+    <state x="580" y="184" key="SettingsEditor" timestamp="1575201607040">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="580" y="184" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575201607040" />
+    <state x="2381" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575120286977" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1575201424137">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575201424137" />
+    <state x="2682" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575637613299">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2682" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575637613299" />
+    <state x="2315" y="100" key="new project wizard" timestamp="1575819289415">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2315" y="100" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575819289415" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1575202187146">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575201306961" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575202187146" />
   </component>
 </project>

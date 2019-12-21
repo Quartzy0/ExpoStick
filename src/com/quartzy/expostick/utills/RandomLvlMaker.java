@@ -1,15 +1,7 @@
 package com.quartzy.expostick.utills;
 
-import com.quartzy.expostick.entities.Entity;
 import com.quartzy.expostick.entities.EntityData;
-import com.quartzy.expostick.entities.EntityType;
-import com.quartzy.expostick.entities.Robot;
-import com.quartzy.expostick.tiles.Tile;
-import com.quartzy.expostick.tiles.Tiles;
-import com.quartzy.expostick.utills.FileManager;
 import com.quartzy.expostick.world.WorldData;
-
-import java.util.Random;
 
 public class RandomLvlMaker {
 

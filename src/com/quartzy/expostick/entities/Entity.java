@@ -11,6 +11,8 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
+import java.util.UUID;
 
 public abstract class Entity {
 
@@ -28,6 +30,7 @@ public abstract class Entity {
     private Animation animation;
     private boolean visible;
     private Vector2 weaponHoldPosition;
+    private UUID id;
 
     public Entity(Vector2 position, BufferedImage baseTexture, double scale, Vector2 velocity, String name, EntityType type, boolean colidable, int startHealth, Handler handler) {
         this.baseTexture = baseTexture;
@@ -37,7 +40,8 @@ public abstract class Entity {
         this.handler = handler;
         this.colidable = colidable;
         this.visible = true;
-        data = new EntityData(position, type, colidable, startHealth);
+        this.id = UUID.randomUUID();
+        data = new EntityData(position, type, colidable, startHealth, id);
         this.hitbox = new Rectangle(position.getX(), position.getY(), (int) (baseTexture.getWidth()*scale), (int) (baseTexture.getHeight()*scale));
     }
 
@@ -50,7 +54,8 @@ public abstract class Entity {
         this.colidable = colidable;
         this.visible = true;
         this.weaponHoldPosition = weaponHoldPosition;
-        data = new EntityData(position, type, colidable, startHealth);
+        this.id = UUID.randomUUID();
+        data = new EntityData(position, type, colidable, startHealth, id);
         this.hitbox = new Rectangle(position.getX(), position.getY(), (int) (baseTexture.getWidth()*scale), (int) (baseTexture.getHeight()*scale));
     }
 
@@ -62,12 +67,12 @@ public abstract class Entity {
         this.data.health = health;
     }
 
-    public void addHealth(int ammount){
-        this.data.health+=ammount;
+    public void addHealth(int amount){
+        this.data.health+=amount;
     }
 
-    public void removeHealth(int ammount){
-        this.data.health-=ammount;
+    public void removeHealth(int amount){
+        this.data.health-=amount;
     }
 
     public Entity(Vector2 position, BufferedImage baseTexture, double scale, Vector2 velocity, String name, EntityType type, boolean colidable, int startHealth, Handler handler, Animation animation) {
@@ -79,7 +84,8 @@ public abstract class Entity {
         this.colidable = colidable;
         this.animation = animation;
         this.visible = true;
-        this.data = new EntityData(position, type, colidable, startHealth);
+        this.id = UUID.randomUUID();
+        this.data = new EntityData(position, type, colidable, startHealth, id);
         this.hitbox = new Rectangle(position.getX(), position.getY(), (int) (baseTexture.getWidth()*scale), (int) (baseTexture.getHeight()*scale));
     }
 
@@ -186,6 +192,7 @@ public abstract class Entity {
             }
             setVelocity(new Vector2(Math.max(Math.min(getVelocity().getX()-slowdown, 0), 0), getVelocity().getY()));
         }
+        
         if (weapon!=null) {
             weapon.tick();
         }
@@ -293,5 +300,13 @@ public abstract class Entity {
 
     public Vector2 getWeaponHoldPosition() {
         return weaponHoldPosition;
+    }
+    
+    public UUID getId(){
+        return id;
+    }
+    
+    public void setId(UUID id){
+        this.id = id;
     }
 }

@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="ExternalLIBS">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../ExternalLIBS/out/artifacts/ExternalLIBS_jar/ExternalLIBS.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

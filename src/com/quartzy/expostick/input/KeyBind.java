@@ -18,7 +18,7 @@ public class KeyBind {
     public boolean isPressed() {
         return pressed;
     }
-
+    
     public String getName() {
         return name;
     }

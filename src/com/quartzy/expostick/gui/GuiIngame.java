@@ -20,8 +20,10 @@ public class GuiIngame extends Gui {
     @Override
     public void tick() {
         super.tick();
-        progressBar.setPercent(handler.getPlayer().getHealth());
-        hpTxt.setText(handler.getPlayer().getHealth() + "/100");
+        if(handler.getPlayer()!=null){
+            progressBar.setPercent(handler.getPlayer().getHealth());
+            hpTxt.setText(handler.getPlayer().getHealth() + "/100");
+        }
     }
 
     @Override

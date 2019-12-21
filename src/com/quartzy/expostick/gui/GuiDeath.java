@@ -31,7 +31,7 @@ public class GuiDeath extends Gui {
         quitBtn.setClickEvent(new OnClickedEvent() {
             @Override
             public void clicked() {
-                Handler.quit(0);
+                handler.quit(0);
             }
         });
         addComponet(restartBtn);
